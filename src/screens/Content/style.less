@@ -1,0 +1,38 @@
+@import '../../assets/static/public.less';
+.content {
+  width: 100%;
+  flex: 1 100%;
+  background-color: #f7f5f3;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px;
+  .list-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .list-title {
+    width: 40%;
+    text-align: left;
+    span {
+      font-size: 20px;
+    }
+    border-bottom: 2px dashed @adorn-color;
+  }
+  .user-now-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .user-now {
+    font-size: 70px;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

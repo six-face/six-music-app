@@ -1,0 +1,47 @@
+@import "../../assets/static/public.less";
+.top-bar {
+  -webkit-app-region: drag;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: @theme-color;
+}
+
+.navigate {
+  margin-left: 190px;
+  * {
+    margin: 0 20px 0 0;
+  }
+  i:hover {
+    color: #f3e9e9;
+  }
+  button {
+    -webkit-app-region: no-drag;
+  }
+  .history {
+    background: none !important;
+    border-color: @theme-color  !important;
+    width: 10px;
+  }
+}
+
+.win-controller {
+  -webkit-app-region: no-drag;
+  button {
+    -webkit-app-region: no-drag;
+    background: none !important;
+    border-color: @theme-color  !important;
+  }
+}
+
+.setting {
+  span {
+    display: inline-block;
+    color: @adorn-color;
+  }
+  .ant-btn:not(.ant-btn-circle):not(.ant-btn-circle-outline).ant-btn-icon-only {
+    background-color: @theme-color  !important;
+  }
+}

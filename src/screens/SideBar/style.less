@@ -1,0 +1,44 @@
+@import '../../assets/static/public.less';
+.side-bar {
+  width: 250px;
+  height: 100%;
+  cursor: pointer;
+  background-color: @null-color;
+  & {
+    height: 100%;
+  }
+  .search {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ant-menu {
+    background-color: @null-color;
+    border: 0;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: rgba(232, 193, 195, 0.2);
+    color: @font-color;
+  }
+  .ant-menu-item:hover {
+    color: @font-color;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected:after {
+    border-right: 3px solid @theme-color;
+  }
+  .ant-input {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    &:focus {
+      box-shadow: none;
+      border-color: @font-color;
+    }
+    &:hover {
+      border-color: @font-color;
+    }
+  }
+}

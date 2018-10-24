@@ -1,0 +1,45 @@
+{
+  "name": "six-music",
+  "version": "0.1.0",
+  "description": "cloud music",
+  "main": "main.js",
+  "repository": "none",
+  "author": "sixface",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config config/webpack.config.js -w & node_modules/.bin/electron main.js",
+    "build": "webpack --config config/webpack.prod.js",
+    "server": "node_modules/.bin/electron main.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.8",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux": "^3.6.0",
+    "@types/request": "^2.47.1",
+    "antd": "^3.3.2",
+    "css-loader": "0.28.11",
+    "electron": "^3.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "style-loader": "^0.23.0",
+    "stylus": "^0.54.5",
+    "ts-import-plugin": "^1.4.4",
+    "ts-loader": "3",
+    "typescript": "^3.1.3",
+    "webpack": "3.12.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

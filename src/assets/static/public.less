@@ -1,0 +1,128 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    font-size: 14px;
+    color: @font-color;
+}
+
+@font-color: #784e56;
+@theme-color: #C5b2ac;
+@adorn-color: #784e56;
+@null-color: #fbf3eb;
+@sub-background: #f3e9e9;
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+    border-color: @font-color;
+}
+
+.ant-input:hover {
+    border-color: @adorn-color;
+    box-shadow: @adorn-color;
+}
+
+.ant-modal-footer button+button {
+    background: @adorn-color;
+    border-color: @adorn-color;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    background: @theme-color;
+    border-color: @theme-color;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: @font-color;
+    border-color: @adorn-color;
+}
+
+.ant-menu-submenu-title:hover {
+    color: @font-color;
+}
+
+.ant-menu-submenu-arrow,
+.ant-menu-submenu-arrow:hover {
+    color: @font-color
+}
+
+.ant-table-thead,
+.ant-table-tbody>tr>td.column-align {
+    text-align: left;
+}
+
+.ant-table-pagination {
+    text-decoration: none;
+    li {
+        display: inline-block;
+        margin-right: 25px;
+    }
+}
+
+.ant-card-cover {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: @sub-background;
+    img {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+}
+
+.ant-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ant-card-meta-title {
+    color: @font-color;
+}
+
+.ant-table table {
+    color: #635c5c;
+}
+
+.ant-btn:not(.ant-btn-circle):not(.ant-btn-circle-outline).ant-btn-icon-only {
+    background: #e0b8b8;
+    border-color: #e0b8b8;
+}
+
+.ant-table-tbody>tr:hover>td {
+    background: rgba(218, 187, 189, 0.2);
+}
+
+.ant-tag-magenta {
+    color: @font-color;
+    background: @null-color;
+    border-color: @adorn-color;
+}
+
+.ant-table-thead tr th {
+    color: @font-color;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: @font-color;
+    border-color: @font-color;
+}
+
+.ant-pagination.mini .ant-pagination-item {
+    border-color: @font-color  !important;
+}
+
+.ant-pagination-item-active a {
+    color: @font-color;
+}
+
+.ant-pagination-item {
+    color: @font-color  !important;
+}
+
+.ant-pagination-item-active {
+    border-color: @font-color;
+}

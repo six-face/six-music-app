@@ -1,0 +1,84 @@
+@import '../../assets/static/public.less';
+@playing-name-height: 20px;
+.audio-controller {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 100;
+  &.lyric-active {
+    color: @adorn-color;
+  }
+  .play-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    width: 200px;
+    z-index: 15;
+    font-size: 36px;
+    i {
+      margin: 0 10px;
+      cursor: pointer;
+      transition: all .3s;
+      &:hover {
+        color: @adorn-color;
+        text-shadow: 0 0 4px @adorn-color;
+      }
+    }
+  }
+  .slider-wrapper {
+    flex: 1 1 auto;
+    z-index: 15;
+    .meta {
+      display: flex;
+    }
+    .name {
+      font-size: 14px;
+      padding-right: 30px;
+      flex: 1 1 auto;
+      width: 300px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      line-height: @playing-name-height;
+      height: @playing-name-height;
+      span:hover {
+        color: @sub-background;
+        cursor: pointer;
+      }
+      margin-bottom: 5px;
+    }
+    .audio-time {
+      overflow: hidden;
+      font-size: 12px;
+    }
+  } // .name {
+  //     font-size: 20px;
+  //     margin-bottom: 5px;
+  //     width: 400px;
+  //     text-overflow: ellipsis;
+  //     overflow: hidden;
+  //     white-space: nowrap;
+  // }
+  // .name:hover {
+  //     color: @theme-color;
+  // }
+  .slider-runway {
+    position: relative;
+    height: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #d9d9d9;
+  }
+  .slider-bar {
+    width: 100%;
+    height: 100%;
+    background-color: @adorn-color;
+    transform: translateX(-100%);
+    transition: transform .3s linear;
+    pointer-events: none;
+  }
+}
