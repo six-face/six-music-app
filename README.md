@@ -55,7 +55,13 @@
 ## Getting Started
 将代码下载到本地
 
-`yarn install` 
+```
+
+yarn install
+cd server
+yarn install
+
+``` 
 
 开发环境：
 
