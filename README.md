@@ -40,7 +40,7 @@
 
 
 
-<p align = "center"> <img src="https://github.com/six-face-app/six-music/blob/master/readmeimg/main.jpg" ail="main" ></p>
+<p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/main.jpg" ail="main" ></p>
 
 
 
