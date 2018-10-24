@@ -4,7 +4,7 @@
 项目使用TypeScript开发，全面覆盖类型检查 :flags:
 <h1></h1>
 
-<p align = "center"> <img src="https://github.com/six-face/six-music/blob/master/readmeimg/preview.gif" ail="preview" ></p>
+<p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/preview.gif" ail="preview" ></p>
 
 ## Build with:
 > TypeScript
@@ -40,27 +40,25 @@
 
 
 
-<p align = "center"> <img src="https://github.com/six-face/six-music/blob/master/readmeimg/main.jpg" ail="main" ></p>
+<p align = "center"> <img src="https://github.com/six-face-app/six-music/blob/master/readmeimg/main.jpg" ail="main" ></p>
 
 
 
 
-<p align = "center"> <img src="https://github.com/six-face/six-music/blob/master/readmeimg/lyric.jpg" ail="lyric" ></p>
+<p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/lyric.jpg" ail="lyric" ></p>
 
 
 
 
-<p align = "center"> <img src="https://github.com/six-face/six-music/blob/master/readmeimg/playlist.jpg" ail="playlist" ></p>
+<p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/playlist.jpg" ail="playlist" ></p>
 
 ## Getting Started
 将代码下载到本地
 
 ```
-
 yarn install
 cd server
 yarn install
-
 ``` 
 
 开发环境：
