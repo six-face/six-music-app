@@ -29,7 +29,7 @@ function createWindow() {
     titleBarStyle: 'hidden',
     frame: false,
     show: false,
-    icon: path.join(__dirname, 'dist/icon/64x64.icns')
+    icon: path.join(__dirname, 'dist/icon/mimimi.png')
   })
   mainWindow.loadFile(path.join(__dirname, 'dist/index.html'))
 
