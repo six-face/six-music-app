@@ -33,17 +33,6 @@ function createWindow() {
   })
   mainWindow.loadFile(path.join(__dirname, 'dist/index.html'))
 
-  if (!isOsx) {
-    mainWindow.on('closed', () => {
-      mainWindow = null
-    })
-  } else {
-    mainWindow.on('closed', e => {
-      if (forceQuit) return
-      e.preventDefault()
-      mainWindow.hide()
-    })
-  }
   mainWindow.once('ready-to-show', () => {
     // 显示主窗口
     mainWindow.show()
@@ -55,12 +44,6 @@ function createWindow() {
 app.on('ready', () => {
   startServer()
 })
-
-// app.on("quit", () => {
-//   if (process.platform !== 'darwin') {
-//     app.quit()
-//   }
-// })
 
 if (isOsx) {
   app.dock.setIcon(`${__dirname}/dist/icon/mimimi.png`)

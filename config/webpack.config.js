@@ -23,8 +23,10 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         loader: 'ts-loader',
         options: {
+          // 按需加载
           getCustomTransformers: () => ({
             before: [
+              // 在代码中import antd 组件的时候需要单独引入样式文件，这个插件是帮助引入插件的，这个插件只支持es6模块倒入方法（源码中）
               tsImportPluginFactory({
                 libraryName: 'antd',
                 libraryDirectory: 'es',

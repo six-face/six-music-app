@@ -7,9 +7,10 @@
   "author": "sixface",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config config/webpack.config.js -w & node_modules/.bin/electron main.js",
+    "dev": "webpack --config config/webpack.config.js -w",
+    "start": "./node_modules/.bin/electron main.js",
     "build": "webpack --config config/webpack.prod.js",
-    "server": "node_modules/.bin/electron main.js"
+    "server": "./node_modules/.bin/electron main.js"
   },
   "devDependencies": {
     "@types/react": "^16.4.14",
@@ -40,6 +41,9 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "apicache": "^1.2.1",
+    "big-integer": "^1.6.28",
+    "express": "^4.16.3",
     "request": "^2.88.0"
   }
 }

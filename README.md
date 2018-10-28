@@ -57,17 +57,22 @@
 
 ```
 yarn install
-cd server
-yarn install
+
 ``` 
 
 开发环境：
 
-`yarn run dev`
+```
+yarn run dev
+yarn start
+```
 
 生产环境：
 
-`yarn run build`
+```
+yarn run build
+yarn start
+```
 
 ## License
 
