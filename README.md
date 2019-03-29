@@ -1,7 +1,7 @@
 # six-music
-一个网易云第三方桌面应用 :headphones: :apple: :lemon: :watermelon:
+A Netease cloud third-party desktop application :headphones: :apple: :lemon: :watermelon:
 
-项目使用TypeScript开发，全面覆盖类型检查 :flags:
+The project uses TypeScript development to fully cover type checking :flags:
 <h1></h1>
 
 <p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/preview.gif" ail="preview" ></p>
@@ -13,30 +13,30 @@
 
 > React\Redux\React-Router
 
-> API服务 整合自  <a href="https://github.com/Binaryify/NeteaseCloudMusicApi" title="api">Binaryify/NeteaseCloudMusicApi</a> 非常感谢 :hearts: :+1:
+> API service integrated from  <a href="https://github.com/Binaryify/NeteaseCloudMusicApi" title="api">Binaryify/NeteaseCloudMusicApi</a>  :hearts: :+1:
 
 ## Feature
 
-:star2: 跨平台 
+:star2: Cross-platform
 
-:star2: 持久化
+:star2: Persistence
 
-:star2: 灵活布局 
+:star2: Flexible layout
 
-:star2: 简单/简洁 (有点可爱:question:)
+:star2: simple/lovely (:question:)
 
 ## Function
-:balloon: 登录
+:balloon: login
 
-:balloon: 登出
+:balloon: logout
 
-:balloon: 搜索
+:balloon: serach
 
-:balloon: 播放列表
+:balloon: playlist
 
-:balloon: 歌词同步
+:balloon: lyric synchronization
 
-:balloon: 个性化推荐
+:balloon: Personalized recommendation
 
 
 
@@ -53,21 +53,21 @@
 <p align = "center"> <img src="https://github.com/six-face/six-music-app/blob/master/readmeimg/playlist.jpg" ail="playlist" ></p>
 
 ## Getting Started
-将代码下载到本地
+
 
 ```
 yarn install
 
 ``` 
 
-开发环境：
+dev：
 
 ```
 yarn run dev
 yarn start
 ```
 
-生产环境：
+pro：
 
 ```
 yarn run build
