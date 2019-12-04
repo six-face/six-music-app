@@ -23,7 +23,7 @@ The project uses TypeScript development to fully cover type checking :flags:
 
 :star2: Flexible layout
 
-:star2: simple/lovely (:question:)
+:star2: simple/lovely (:question::question:)
 
 ## Function
 :balloon: login
